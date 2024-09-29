@@ -1671,7 +1671,7 @@ class _SuggestionList extends StatelessWidget {
                   borderRadius: BorderRadius.circular(circularBorderRadius7),
                   child: suggestion.image == ''
                       ? SvgPicture.asset(
-                          DesignConfiguration.setSvgPath('placeholder'),
+                          DesignConfiguration.setSvgPath('splashlogo'),
                           width: 50,
                           height: 50,
                           fit: BoxFit.cover,

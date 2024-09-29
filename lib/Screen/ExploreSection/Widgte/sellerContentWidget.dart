@@ -105,7 +105,7 @@ class ShowContentOfSellers extends StatelessWidget {
                       borderRadius: BorderRadius.circular(circularBorderRadius7),
                       child: sellerList[index].seller_profile == ''
                           ? SvgPicture.asset(
-                              DesignConfiguration.setSvgPath('placeholder'),
+                              DesignConfiguration.setSvgPath('splashlogo'),
                               width: 50,
                               height: 50,
                               fit: BoxFit.cover,

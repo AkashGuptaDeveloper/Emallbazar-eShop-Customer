@@ -140,7 +140,7 @@ class DesignConfiguration {
       // placeholderCacheHeight: 50,
       // imageCacheWidth: 50,
       image: imageurlString,
-      placeholder:  DesignConfiguration.setPngPath('placeholder'),
+      placeholder:  DesignConfiguration.setPngPath('splashlogo'),
       width: widthvalue,
       height: heightvalue,
       fit: boxFit,
