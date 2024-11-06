@@ -1,4 +1,4 @@
-package eShop.multivendor.customer
+package com.Emallbazar.app
 
 /*
 import io.flutter.embedding.android.FlutterActivity

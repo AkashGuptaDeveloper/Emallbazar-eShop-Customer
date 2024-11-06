@@ -1,6 +1,6 @@
 class AppConstants {
   static const String app_name = 'Emallbazar';
-  static const String androidPackageName = 'eShop.multivendor.customer';
+  static const String androidPackageName = 'com.Emallbazar.app';
   static const String iosPackageName = 'wrteam.eshop.multivendor';
   static const String baseUrl = 'https://emallbazar.com/app/v1/api/';
   static const String chatBaseUrl = 'https://emallbazar.com/app/v1/Chat_Api/';
