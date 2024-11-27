@@ -21,7 +21,7 @@ import 'package:lottie/lottie.dart';
 import 'package:mime/mime.dart';
 import 'package:my_fatoorah/my_fatoorah.dart';
 //import 'package:paytm/paytm.dart';
-import 'package:paytm_allinonesdk/paytm_allinonesdk.dart';
+//import 'package:paytm_allinonesdk/paytm_allinonesdk.dart';
 import 'package:phonepe_payment_sdk/phonepe_payment_sdk.dart';
 import 'package:provider/provider.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
@@ -2315,7 +2315,7 @@ class StateCart extends State<Cart> with TickerProviderStateMixin {
     };
 
     try {
-      apiBaseHelper.postAPICall(getPytmChecsumkApi, parameter).then(
+     /* apiBaseHelper.postAPICall(getPytmChecsumkApi, parameter).then(
         (getdata) async {
           bool error = getdata['error'];
 
@@ -2374,7 +2374,7 @@ class StateCart extends State<Cart> with TickerProviderStateMixin {
         onError: (error) {
           setSnackbar(error.toString(), context);
         },
-      );
+      );*/
     } catch (e) {}
   }
 

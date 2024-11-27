@@ -3,7 +3,7 @@ import 'package:eshop_multivendor/Screen/StripeService/Stripe_Service.dart';
 import 'package:flutter/cupertino.dart';
 
 //import 'package:paytm/paytm.dart';
-import 'package:paytm_allinonesdk/paytm_allinonesdk.dart';
+//import 'package:paytm_allinonesdk/paytm_allinonesdk.dart';
 import '../Helper/Constant.dart';
 import '../Helper/String.dart';
 
@@ -29,7 +29,7 @@ class PaymentRepository {
   }
 
 //This method is used to pay with paytm
-  static Future<Map<dynamic, dynamic>> payWithPaytm({
+ /* static Future<Map<dynamic, dynamic>> payWithPaytm({
     required Map<String, dynamic> apiParameter,
     required String paytmCallbackURL,
     required String paytmMerchantID,
@@ -50,14 +50,14 @@ class PaymentRepository {
               paytmCallbackURL,
               isTestingModeEnable,
               false);
-          /* Map<dynamic, dynamic> paytmResponse = await Paytm.payWithPaytm(
+          *//* Map<dynamic, dynamic> paytmResponse = await Paytm.payWithPaytm(
             callBackUrl: paytmCallbackURL,
             mId: paytmMerchantID,
             orderId: paytmOrderID,
             txnToken: paytmResponseFromAPI['txn_token']!,
             txnAmount: paytmTransactionAmount.toString(),
             staging: isTestingModeEnable,
-          ); */
+          ); *//*
           return paytmResponse!;
         },
       );
@@ -65,7 +65,7 @@ class PaymentRepository {
     } catch (e) {
       throw ApiException('$errorMesaage${e.toString()}');
     }
-  }
+  }*/
 
   //
 //This method is used to pay with stripe

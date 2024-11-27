@@ -263,7 +263,7 @@ class PaymentProvider extends ChangeNotifier {
     }
   }
 
-  Future<Map<String, dynamic>> payWithPaytm({
+/*  Future<Map<String, dynamic>> payWithPaytm({
     required String userID,
     required String orderID,
     required String paymentAmount,
@@ -272,7 +272,7 @@ class PaymentProvider extends ChangeNotifier {
     required bool isTestingModeEnable,
   }) async {
     try {
-      var parameter = {
+     *//* var parameter = {
         AMOUNT: paymentAmount,
         // USER_ID: userID,
         ORDER_ID: orderID
@@ -316,7 +316,7 @@ class PaymentProvider extends ChangeNotifier {
         response['message'] = paytmResponse['RESPMSG'];
       }
 
-/*       if (paytmResponse['error']) {
+*//**//*       if (paytmResponse['error']) {
         response['error'] = paytmResponse['error'];
         response['message'] = paytmResponse['errorMessage'];
       } else {
@@ -331,8 +331,8 @@ class PaymentProvider extends ChangeNotifier {
             response['message'] = 'Transaction Failed';
           }
         }
-      } */
-      return response;
+      } *//*
+      //return response;
     } catch (e) {
       return {
         'error': true,
@@ -340,7 +340,7 @@ class PaymentProvider extends ChangeNotifier {
         'message': 'Something went Wrong'
       };
     }
-  }
+  }*/
 
   Future<Map<String, dynamic>> payWithStripe({
     required String paymentAmount,

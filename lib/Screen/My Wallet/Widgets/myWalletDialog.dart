@@ -657,9 +657,9 @@ class _AddMoneyDialogState extends State<AddMoneyDialog> {
                         // await updateUserWalletAmount();
                       } else if (systemProvider!.selectedPaymentMethodName ==
                           getTranslated(context, 'PAYTM_LBL')) {
-                        var response = await doPaymentWithPaytm(
-                            price: double.parse(amountTextController!.text));
-                        Navigator.pop(context, response);
+                       /* var response = await doPaymentWithPaytm(
+                            price: double.parse(amountTextController!.text));*/
+                        //Navigator.pop(context, response);
                         // await updateUserWalletAmount();
                       } else if (systemProvider!.selectedPaymentMethodName ==
                           getTranslated(context, 'PAYPAL_LBL')) {
@@ -854,7 +854,7 @@ class _AddMoneyDialogState extends State<AddMoneyDialog> {
     }
   }
 
-  Future<Map<String, dynamic>> doPaymentWithPaytm(
+  /*Future<Map<String, dynamic>> doPaymentWithPaytm(
       {required double price}) async {
     context.read<MyWalletProvider>().isLoading = true;
     try {
@@ -867,7 +867,7 @@ class _AddMoneyDialogState extends State<AddMoneyDialog> {
           ? 'https://securegw-stage.paytm.in/theia/paytmCallback?ORDER_ID=$orderID'
           : 'https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=$orderID';
 
-      var response = await context.read<PaymentProvider>().payWithPaytm(
+     *//* var response = await context.read<PaymentProvider>().payWithPaytm(
             userID: context.read<UserProvider>().userId!,
             orderID: orderID,
             paymentAmount: price.toString(),
@@ -875,9 +875,9 @@ class _AddMoneyDialogState extends State<AddMoneyDialog> {
             paytmMerchantID: context.read<SystemProvider>().paytmMerchantID!,
             isTestingModeEnable:
                 context.read<SystemProvider>().isPaytmOnTestMode ?? true,
-          );
+          );*//*
 
-      return response;
+      //return response;
     } catch (e) {
       return {
         'error': true,
@@ -885,7 +885,7 @@ class _AddMoneyDialogState extends State<AddMoneyDialog> {
         'status': false,
       };
     }
-  }
+  }*/
 
   Future<Map<String, dynamic>> doPaymentWithStripe({
     required String price,

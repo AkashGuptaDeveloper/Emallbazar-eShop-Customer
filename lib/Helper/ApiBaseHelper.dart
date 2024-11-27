@@ -51,6 +51,9 @@ class ApiBaseHelper {
           await post(url, body: param.isNotEmpty ? param : [], headers: headers)
               .timeout(const Duration(seconds: timeOut));
       if (kDebugMode) {
+        print("==========response");
+        print(param);
+        print(response);
         print(
             'response api*********$url**********$headers********param:$param*********${response.statusCode}*********${response.body}');
       }

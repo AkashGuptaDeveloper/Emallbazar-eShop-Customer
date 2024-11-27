@@ -2,7 +2,7 @@ name: eshop_multivendor
 description: eShop Multivendor App
 publish_to: "none"
 
-version: 2.10.0+1
+version: 1.0.0
 
 
 environment:
@@ -61,7 +61,7 @@ dependencies:
   sign_in_with_apple: ^6.1.0
   crypto: ^3.0.1
   flutter_styled_toast: ^2.2.1
-  paytm_allinonesdk: ^1.2.6
+  #paytm_allinonesdk: ^1.2.6
   external_path: ^2.0.1
   flutter_bloc: ^8.1.3
   dio: ^5.4.0
