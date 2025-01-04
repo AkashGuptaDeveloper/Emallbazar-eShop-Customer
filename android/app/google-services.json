@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "849851412093",
-    "project_id": "emallbazar-faf7d",
-    "storage_bucket": "emallbazar-faf7d.firebasestorage.app"
+    "project_number": "782690703948",
+    "project_id": "emallbazar-customer",
+    "storage_bucket": "emallbazar-customer.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:849851412093:android:b985c8e5115b2bbf1b8b14",
+        "mobilesdk_app_id": "1:782690703948:android:faa38b6be4760eb5e472e9",
         "android_client_info": {
-          "package_name": "com.Emallbazar.app"
+          "package_name": "Customer.emallbazar.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "782690703948-0qckqh7ct77bcqv4tupfociiienn51bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Customer.emallbazar.app",
+            "certificate_hash": "e5f022ccc76438ce521b20481765aa13ca6ed817"
+          }
+        },
+        {
+          "client_id": "782690703948-u4rbiomcd55g7n3rsa2cei5t6mts6u0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyB_7n45qqMW286D165Xq7mHHHaqYkOiR0A"
+          "current_key": "AIzaSyBcut1Ba41Fzxy3nAjLDtKmhJy2D5AkZRg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782690703948-u4rbiomcd55g7n3rsa2cei5t6mts6u0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

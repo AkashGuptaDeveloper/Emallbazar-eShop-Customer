@@ -329,7 +329,7 @@
 				ENABLE_BITCODE = NO;
 				FLUTTER_BUILD_NUMBER = 2;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "com.Emallbazar.app";
+				INFOPLIST_KEY_CFBundleDisplayName = "Customer.emallbazar.app";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,7 +469,7 @@
 				ENABLE_BITCODE = NO;
 				FLUTTER_BUILD_NUMBER = 2;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "com.Emallbazar.app";
+				INFOPLIST_KEY_CFBundleDisplayName = "Customer.emallbazar.app";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,7 +501,7 @@
 				ENABLE_BITCODE = NO;
 				FLUTTER_BUILD_NUMBER = 2;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "com.Emallbazar.app";
+				INFOPLIST_KEY_CFBundleDisplayName = "Customer.emallbazar.app";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

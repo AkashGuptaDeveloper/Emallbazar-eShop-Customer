@@ -47,21 +47,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-      apiKey: "AIzaSyAXLmPO0ZOT3ycpW4ize89_Tf4Aae6P4jQ",
-      authDomain: "emallbazar-faf7d.firebaseapp.com",
-      projectId: "emallbazar-faf7d",
-      storageBucket: "emallbazar-faf7d.firebasestorage.app",
-      messagingSenderId: "849851412093",
-      appId: "1:849851412093:web:36f30b1f35d0f5e31b8b14",
-      measurementId: "G-P1Q754925Z"
+      apiKey: "AIzaSyDDHTga-2itG19DVyn65YEAqziSwII5Ys8",
+      authDomain: "emallbazar-customer.firebaseapp.com",
+      projectId: "emallbazar-customer",
+      storageBucket: "emallbazar-customer.firebasestorage.app",
+      messagingSenderId: "782690703948",
+      appId: "1:782690703948:web:616ca9dfb4f8f18fe472e9",
+      measurementId: "G-6HJ3270BY3"
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB_7n45qqMW286D165Xq7mHHHaqYkOiR0',
-    appId: '1:849851412093:android:b985c8e5115b2bbf1b8b14',
-    messagingSenderId: '849851412093',
-    projectId: 'emallbazar-faf7d',
-    storageBucket: 'emallbazar-faf7d.firebasestorage.app',
+    apiKey: 'AIzaSyBcut1Ba41Fzxy3nAjLDtKmhJy2D5AkZRg',
+    appId: '1:782690703948:android:faa38b6be4760eb5e472e9',
+    messagingSenderId: '782690703948',
+    projectId: 'emallbazar-customer',
+    storageBucket: 'emallbazar-customer.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

@@ -1,4 +1,4 @@
-package com.Emallbazar.app
+package Customer.emallbazar.app
 
 /*
 import io.flutter.embedding.android.FlutterActivity
