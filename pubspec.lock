@@ -732,10 +732,10 @@ packages:
     dependency: transitive
     description:
       name: google_sign_in_android
-      sha256: "0608de03fc541ece4f91ba3e01a68b17cce7a6cf42bd59e40bbe5c55cc3a49d8"
+      sha256: "1ad54110a151d3ebbfe9be5a0c2b715aeabddb079e54efd84e56c49605b5474a"
       url: "https://pub.dev"
     source: hosted
-    version: "6.1.30"
+    version: "6.1.31"
   google_sign_in_ios:
     dependency: transitive
     description:
@@ -1593,10 +1593,10 @@ packages:
     dependency: transitive
     description:
       name: video_player_android
-      sha256: "4de50df9ee786f5891d3281e1e633d7b142ef1acf47392592eb91cba5d355849"
+      sha256: e343701aa890b74a863fa460f5c0e628127ed06a975d7d9af6b697133fb25bdf
       url: "https://pub.dev"
     source: hosted
-    version: "2.6.0"
+    version: "2.7.1"
   video_player_avfoundation:
     dependency: transitive
     description:
