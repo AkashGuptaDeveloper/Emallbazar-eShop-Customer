@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:eshop_multivendor/Helper/String.dart';
-import 'package:eshop_multivendor/Provider/UserProvider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 import '../Helper/ApiBaseHelper.dart';

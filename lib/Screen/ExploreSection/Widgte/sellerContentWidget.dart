@@ -2,8 +2,6 @@ import 'dart:math';
 
 import 'package:eshop_multivendor/Helper/Color.dart';
 import 'package:eshop_multivendor/Provider/homePageProvider.dart';
-import 'package:eshop_multivendor/Screen/Product%20Detail/Widget/sellerDetail.dart';
-import 'package:eshop_multivendor/widgets/ratingCardForProduct.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

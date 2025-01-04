@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:eshop_multivendor/Provider/UserProvider.dart';
 import 'package:eshop_multivendor/main.dart';
 import 'package:eshop_multivendor/repository/promoCodeRepository.dart';
 import 'package:flutter/material.dart';

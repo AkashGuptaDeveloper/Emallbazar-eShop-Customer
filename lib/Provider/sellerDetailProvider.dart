@@ -1,10 +1,8 @@
 import 'dart:async';
 
 import 'package:eshop_multivendor/Model/Section_Model.dart';
-import 'package:eshop_multivendor/Provider/UserProvider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart';
-import 'package:provider/provider.dart';
 import '../Helper/Constant.dart';
 import '../Helper/String.dart';
 import '../Screen/Language/languageSettings.dart';

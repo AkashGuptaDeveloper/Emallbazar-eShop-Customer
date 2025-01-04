@@ -1,9 +1,6 @@
 import 'dart:io';
 import 'package:eshop_multivendor/Helper/Color.dart';
 import 'package:eshop_multivendor/Helper/Constant.dart';
-import 'package:eshop_multivendor/Screen/Language/languageSettings.dart';
-import 'package:eshop_multivendor/widgets/snackbar.dart';
-//import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../Provider/chatProvider.dart';

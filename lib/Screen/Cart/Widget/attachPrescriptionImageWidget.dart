@@ -1,11 +1,7 @@
-import 'dart:io';
 import 'package:eshop_multivendor/Helper/Constant.dart';
-import 'package:eshop_multivendor/widgets/snackbar.dart';
-//import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../Helper/Color.dart';
-import '../../../Helper/String.dart';
 import '../../../Model/Section_Model.dart';
 import '../../../Provider/CartProvider.dart';
 import '../../Language/languageSettings.dart';

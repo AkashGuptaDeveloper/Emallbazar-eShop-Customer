@@ -1,7 +1,5 @@
 import 'package:eshop_multivendor/Provider/UserProvider.dart';
-import 'package:eshop_multivendor/Provider/promoCodeProvider.dart';
 import 'package:eshop_multivendor/Screen/Product%20Detail/productDetail.dart';
-import 'package:eshop_multivendor/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
