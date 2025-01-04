@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "782690703948",
-    "project_id": "emallbazar-customer",
-    "storage_bucket": "emallbazar-customer.firebasestorage.app"
+    "project_number": "724447874880",
+    "project_id": "customersemallbazar",
+    "storage_bucket": "customersemallbazar.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:782690703948:android:faa38b6be4760eb5e472e9",
+        "mobilesdk_app_id": "1:724447874880:android:44825f2cdeb43649b574a5",
         "android_client_info": {
-          "package_name": "Customer.emallbazar.app"
+          "package_name": "com.customersemallbazar.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "782690703948-0qckqh7ct77bcqv4tupfociiienn51bm.apps.googleusercontent.com",
+          "client_id": "724447874880-b8usjk38gjbb44am37r9c3k2h9uqnib9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "Customer.emallbazar.app",
+            "package_name": "com.customersemallbazar.app",
             "certificate_hash": "e5f022ccc76438ce521b20481765aa13ca6ed817"
           }
         },
         {
-          "client_id": "782690703948-u4rbiomcd55g7n3rsa2cei5t6mts6u0b.apps.googleusercontent.com",
+          "client_id": "724447874880-s992e370s8osrjrfgeuo14eamadshirt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBcut1Ba41Fzxy3nAjLDtKmhJy2D5AkZRg"
+          "current_key": "AIzaSyDLVpy6l6w7-1y58lP6ALdKciWtFR2p9iY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "782690703948-u4rbiomcd55g7n3rsa2cei5t6mts6u0b.apps.googleusercontent.com",
+              "client_id": "724447874880-s992e370s8osrjrfgeuo14eamadshirt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
